@@ -16,6 +16,7 @@ namespace Group4Test
             CreateHostBuilder(args).Build().Run();
         }
 
+        // bare kommentar
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
